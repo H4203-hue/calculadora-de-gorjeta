@@ -1,0 +1,7 @@
+.input-box {
+    background: var(--Very-light-grayish-cyan);
+    display: flex;
+    align-items: center;
+}
+
+.input-box

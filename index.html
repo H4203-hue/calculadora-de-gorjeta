@@ -14,7 +14,7 @@
         <form action="">
 
 
-            <div class="bill">
+            <div class="bill distance">
                 <label for="bill-input">Bill</label>
                 <div class="input-box">
                     <img src="./images/icon-dollar.svg" alt="Icone da moeda do dolar">
@@ -23,7 +23,7 @@
             </div>
 
 
-            <div class="tip">
+            <div class="tip distance">
                 <label>Select Tip %</label>
                 <div class="input-boxes">
                     <input type="button" value="5%">
@@ -36,7 +36,7 @@
             </div>
 
 
-            <div class="people">
+            <div class="people distance">
                 <label for="people-input">Nuber of People</label>
                 <div class="input-box">
                     <img src="./images/icon-person.svg" alt="icone de uma pessoa">
@@ -46,14 +46,18 @@
         </form>
 
         <section class="results">
-            <div class="tip-amount">
-                <p>Tip Amount <br> <span>/ person</span></p>
-                <p id="tip-amount__result">$0.00</p>
-            </div>
+            <div class="results-values">
 
-            <div class="total">
-                <p>total <br> <span>/ person</span></p>
-                <p id="total__result">$0.00</p>
+                <div class="tip-amount">
+                    <p>Tip Amount <br> <span>/ person</span></p>
+                    <p id="tip-amount__result">$0.00</p>
+                </div>
+    
+                <div class="total">
+                    <p>total <br> <span>/ person</span></p>
+                    <p id="total__result">$0.00</p>
+                </div>
+                
             </div>
 
             <button>reset</button>

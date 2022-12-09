@@ -43,6 +43,10 @@
     transition: .3s;
 }
 
+.input-boxes input[type="button"].button-selected {
+    background: var(--Strong-cyan);
+}
+
 .input-boxes input[type="number"] {
     background: var(--Very-light-grayish-cyan);
     text-align: center;
